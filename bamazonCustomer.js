@@ -14,7 +14,7 @@ connection.connect(function (err) {
     if (err) {
         throw err;
     }
-    console.log("you're connected")
+    console.log("Time to buy something!")
     start();
 });
 
@@ -49,7 +49,7 @@ function buySomething() {
         {
             name: "qty",
             type: "number",
-            message: "How many would you like to buy?"
+            message: "How many would you like to buy?",
         },
     ]).then(function (answer) {
         // console.log(answer);
