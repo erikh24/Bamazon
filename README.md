@@ -49,6 +49,7 @@ Once you press enter, your order will be complete if there is enough stock on ha
 
 ![image](/images/completed-order.png)
 
+
 If there wasn't enough stock on hand to complete your order, you will see a message similar to the image below.
 
 ![image](/images/not-enough-stock.png)
