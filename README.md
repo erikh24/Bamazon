@@ -11,12 +11,22 @@ I've created an Amazon-like storefront using MySQL. The app will take in orders 
 
 ## Technologies used to create this app:
 - JavaScript
+- MySQL
 - Node.js
 - Node.js packages: 
+    
     -Inquirer.js
+
     -mysql
+
     -CLI Table
--MySQL
+
+**** 
+
+## Author
+
+Erik Halbakken
+ 
 
 ****
 
@@ -24,10 +34,6 @@ I've created an Amazon-like storefront using MySQL. The app will take in orders 
 - https://github.com/erikh24/Bamazon.git
 - https://erikh24.github.io/Bamazon/
 
-****
-
-## I was the sole creator of this project.
- 
 ****
 
 # Instructions:
@@ -53,5 +59,6 @@ Once you press enter, your order will be complete if there is enough stock on ha
 If there wasn't enough stock on hand to complete your order, you will see a message similar to the image below.
 
 ![image](/images/not-enough-stock.png)
+
 
 ****

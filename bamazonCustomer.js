@@ -14,7 +14,7 @@ connection.connect(function (err) {
     if (err) {
         throw err;
     }
-    console.log("Time to buy something!")
+    console.log("Greetings and welcome to Bamazon")
     start();
 });
 
@@ -72,7 +72,7 @@ function checkStock(answer) {
                     if (err) {
                         throw err;
                     }
-                    console.log("There are not " + answer.choice + " of that item available so your order could not be completed. Please try ordering a smaller quantity or choose a new product to purchase.");
+                    console.log("There are not " + answer.qty + " of that item available so your order could not be completed. You will need to order a quantity of " + response[0].stock_quantity + " or less. Please try again.");
                 });
             }
             else {

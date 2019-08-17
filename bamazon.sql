@@ -21,8 +21,19 @@ VALUES (1, "Playstation 4 Pro", "Video Games", 399.99, 10),
 (9, "Jurassic Park Hardcover Book", "Books", 17.99, 13),
 (10, "Toothless Dragon Plush", "Toys", 13.99, 20);
 
+-- to update the product name of a specific item
+USE bamazon;
+
 UPDATE products
-SET department_name = "Games"
-WHERE item_id = 3;
+SET product_name = "Jurassic Park Book (Hardcover)"
+WHERE item_id = 9;
 
 SELECT * FROM products;
+
+
+-- to update the quantity of a specific item in the products table
+USE bamazon;
+
+UPDATE products
+SET stock_quantity = 3
+WHERE item_id = 2;
